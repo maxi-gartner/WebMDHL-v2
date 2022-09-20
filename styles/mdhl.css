@@ -26,80 +26,76 @@
 div > h1{
     position: absolute;
     bottom: 32vh;
-}
-
-.navegation{
-    position: relative;
-    margin: 0%;
-    bottom: 0.4vh;
-    height: 3.5vh;
-    background-color: black;
-    color:white;
-    line-height: 160%;
-    font-weight: bold;
-    text-align: center;
-    font-size: 2vw;
-    font-size: 2vh;
-}
-
-
-.conteiner{
-    position: relative;
-    margin: 0%;
-    padding: 0%;
-    height: 40vh;
-
-}
-div > h1{
-    text-align: start;
-    font-weight: bold;
     font-size: 3vw;
+    margin-left: 0;
+    margin-bottom: 2%;
 }
-
-div > ul > li{
-    float: inline-start;
-    position: absolute;
-    list-style: none;
-    bottom: 74vh;
-    left: 62%;
-    width: 100%;
-}
-
-div > ul > li > a{
-    background-color: #5983cc;
-    border: 1px solid black;
-    display: inline-block;
-    margin: 0 0.4vw;
-    min-width: 7vw;
-    height: 3%;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    line-height: 3vh;
-    font-size: 1.5vw;
-}
-
-a:hover {background-color: yellowgreen;}
-
-.info{
-    float: right;
-    height: 100vh;
-    width: 78%;
-    margin: 0%;
-    font-size: 1.6vw;
-
-}
-
-.logo{
-    position: absolute;
-    margin: 0%;
-    height: 70vh;
-    width: 80%;
-    top: 14vw;
-    right: 70vw;
-    background-image: url(../assets/logo_mighty_ducks-01.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 20%;/*ajustar imagen*/
-}
+    .navegation{
+        position: relative;
+        margin: 0%;
+        bottom: 0.4vh;
+        height: 3.5vh;
+        background-color: black;
+        color:white;
+        line-height: 160%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2vw;
+        font-size: 2vh;
+    }
+    
+    
+    .conteiner{
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        height: 40vh;
+    
+    }
+    
+    div > ul > li{
+        float: inline-start;
+        position: absolute;
+        list-style: none; 
+        bottom: 74vh;
+        left: 62%;
+        width: 100%;
+        height:3vw;
+    }
+    
+    div > ul > li > a{
+        background-color: #5983cc;
+        border: 1px solid black;
+        margin: 0 0.4vw;
+        min-width: 7vw;
+        text-align: bottom;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        line-height: 3vh;
+        font-size: 2.2vw;
+    }
+    
+    a:hover {background-color: yellowgreen;}
+    
+    .info{
+        float: right;
+        height: 100vh;
+        width: 78%;
+        margin: 0%;
+        font-size: 100%;
+    
+    }
+    
+    .logo{
+        position: absolute;
+        margin: 0%;
+        height: 70vh;
+        width: 80%;
+        top: 14vw;
+        right: 70vw;
+        background-image: url(../assets/logo_mighty_ducks-01.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 20%;/*ajustar imagen*/
+    }
