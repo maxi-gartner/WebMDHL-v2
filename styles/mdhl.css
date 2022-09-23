@@ -1,13 +1,15 @@
-*{
-    margin: 2%;
+header{
+    
+    min-width:710px;
 }
 
 .header{
-    height: 90vh;
-    width: 89vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 100%;
+    width: 96%;
     position: relative;
-    margin: 0 auto;
-    overflow: hidden;
+    padding: 0%;
 }
 
 .img{ 
@@ -52,18 +54,26 @@ div > h1{
         height: 40vh;
     
     }
-    
-    div > ul > li{
+    .link-rules{
+        float: inline-start;
+        position: absolute;
+        bottom: 96%;
+        list-style: none; 
+        left: 56%;
+        width: 100%;
+        height:3vw;
+    }
+    .link{
         float: inline-start;
         position: absolute;
         list-style: none; 
-        bottom: 74vh;
-        left: 62%;
+        bottom: 76.5vh;
+        left: 52%;
         width: 100%;
         height:3vw;
     }
     
-    div > ul > li > a{
+    .link-a{
         background-color: #5983cc;
         border: 1px solid black;
         margin: 0 0.4vw;
@@ -79,23 +89,148 @@ div > h1{
     a:hover {background-color: yellowgreen;}
     
     .info{
-        float: right;
-        height: 100vh;
-        width: 78%;
-        margin: 0%;
-        font-size: 100%;
+    height: 16.3em;
+    width: 75vw;
+    float: right;
+    position: relative;
+    padding-bottom: 50px;
+    margin: 0%;
+    font-size: 80%;
+    font-weight: 800;
+    font-weight: bold;
+    overflow: scroll;
     
     }
-    
-    .logo{
+    .logo-rules{
         position: absolute;
-        margin: 0%;
-        height: 70vh;
-        width: 80%;
-        top: 14vw;
-        right: 70vw;
-        background-image: url(../assets/logo_mighty_ducks-01.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 20%;/*ajustar imagen*/
     }
+    .espaciado{
+        height: 50px;
+        width: 100%;
+    }
+    
+    .point3{    
+        padding: 0;
+        }
+        
+        .font-bold{ 
+            font-weight: bold;
+            font-size: 22px;
+        }
+        
+        .body-list{
+            margin: 0;
+            padding: 0;
+            list-style-position:inside;
+        }
+        .head-list{
+            list-style: none;
+        }
+        .font-point3{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .text-point4{
+            list-style: none;
+        }
+        .text-point5{
+            list-style-type: circle;
+            list-style-position:inside;
+        }
+        .title-list{
+            list-style: none;
+            text-align: center;
+        }
+        .margin.sportsmanships{
+            text-indent: pt;
+        }
+        .dates{
+            margin-top: 60vh;
+        }
+        td{
+            margin: 5;
+        }
+        .conteiner-tabla{
+            position: absolute;
+            width: 86%;
+        }
+        table{
+            margin-top: 40px;
+            width: 86%;
+            text-align: left;
+            margin-left: 20%;
+        }
+
+        .td{
+            padding-left: 60px;
+            padding-bottom: 3%;
+            font-size: 20px;
+        }
+        .padding-none{
+            padding-left: 60px;
+            font-size: 20px;
+        }
+        .scope{
+            padding-left: 60px;
+            padding-bottom: 3%;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .tdf{
+            padding-left: 140px;
+            padding-bottom: 3%;
+            font-size: 20px;
+        }
+        .padding-nonef{
+            padding-left: 140px;
+            font-size: 20px;
+        }
+        .title-game{
+            font-size: 34px;
+            list-style: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        .subtitle-game{
+            font-style: oblique;
+            font-size: 22px;
+            margin-left: 22%;
+        }
+        .subtitle2{
+            font-style: oblique;
+            font-size: 17px;
+            font-family: sans-serif;
+            margin-left: 17%;
+        }
+        .font-bold-phone{
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+        .font-bold-email{
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+        }
+        .footer{
+            position: relative;
+            height: 200px;
+            margin-bottom: 30px;
+            margin-left: 26%;
+        }
+        .footer2{
+            margin-bottom: 50px;
+            
+        }
+        .footer3{
+            margin-bottom: 0;
+            
+        }
+        .phone{
+            position: absolute;
+            left: 12%;
+        }
+        .email{
+            position: absolute;
+            right: 0%;
+        }
