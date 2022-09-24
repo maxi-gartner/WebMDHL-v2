@@ -201,6 +201,7 @@ div > h1{
             font-size: 17px;
             font-family: sans-serif;
             margin-left: 17%;
+            list-style: none;
         }
         .font-bold-phone{
             font-weight: bold;
@@ -234,3 +235,11 @@ div > h1{
             position: absolute;
             right: 0%;
         }
+        .point3{    
+            padding: 0;
+            list-style: inside;
+            list-style-type: lower-latin;
+            }
+            .margin-p3{
+                margin-top: 23px;
+            }
